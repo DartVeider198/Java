@@ -33,10 +33,9 @@ public class BeerSong {
             beerNum = beerNum - 1;
             if (beerNum > 0) {
                 System.out.println(beerNum + " " + word + " пива на стене");
-            } else {
-                System.out.println("Нет пива на стене");
-            }
+            }    
         }
+        System.out.println("Нет бутылок пива на стене");
         
     }
     
