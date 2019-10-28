@@ -24,3 +24,6 @@ hs_err_pid*
 /JavaApplication1/dist/
 /BeerSong/nbproject/private/
 /BeerSong/build/
+/PhraseOMatic/nbproject/private/
+/PhraseOMatic/build/
+/PhraseOMatic/dist/
