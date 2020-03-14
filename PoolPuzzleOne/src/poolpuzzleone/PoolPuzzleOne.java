@@ -7,21 +7,34 @@ public class PoolPuzzleOne {
         
         while (x < 4){
             
-            x = x - 1;
+            System.out.print("a");
             
             if(x < 1){
-                System.out.print("a ");
+                System.out.print(" ");
             }
+            System.out.print("n");
             
-            x = x + 1;
             
-            if(x < 1){
-                System.out.print("noise");
+            if(x > 1){
+                System.out.print(" oyster");  
                 x = x + 2;
             }
+            
+            
             if(x == 1){
-                
+                System.out.print("noys");
             }
+            
+
+            
+            if(x < 1){
+                System.out.print("oise");
+                
+            }            
+                
+            
+            System.out.println("");
+            x = x + 1;
             
         }
     }
